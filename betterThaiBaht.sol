@@ -27,7 +27,7 @@ import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 
-contract BTHB is ERC20("beter thai bath", "BTHB"){
+contract BTHB is ERC20("beter thai baht", "BTHB"){
     using SafeERC20 for ERC20;
     uint exchangeRate = 33; 
     address public USDT = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
